@@ -17,7 +17,7 @@ p{
 }
 
 .logo{
-    padding: 0 1em;
+    padding: 0.5em;
     float: left;
 }
 
@@ -26,15 +26,14 @@ p{
 }
 
 nav{
-    position: fixed;
-    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: var(--nav_height);
+    top: 0;
+    position: fixed;
     background-color: var(--nav_bg_color);
-}
-
-nav ul{
-    width: fit-content;
+    height: var(--nav_height);
     list-style-type: none;
     margin: 0 0 0 auto;
     padding: 0;
